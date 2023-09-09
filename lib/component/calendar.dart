@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 
-class CalendarState extends StatelessWidget {
+class Calendar extends StatelessWidget {
   final DateTime? selectedDay;
   final DateTime focusedDay;
-  final onDaySelected? onDaySelected;
+  final OnDaySelected? onDaySelected;
 
 
   const Calendar({
